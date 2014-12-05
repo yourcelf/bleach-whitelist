@@ -26,10 +26,10 @@ Use
 
 Properties:
 
- - ``print_tags``: Safe HTML tags suitable for printing / PDFs.
- - ``print_attrs``: Safe attributes suitable for printing / PDFs.
- - ``all_styles``: A list of all CSS properties supported by major browsers.
- - ``standard_styles``: A list of standard (non-vendor-specific) CSS properaties.
+- ``print_tags``: Safe HTML tags suitable for printing / PDFs.
+- ``print_attrs``: Safe attributes suitable for printing / PDFs.
+- ``all_styles``: A list of all CSS properties supported by major browsers.
+- ``standard_styles``: A list of standard (non-vendor-specific) CSS properaties.
 
 See `bleach_whitelist.py <https://github.com/yourcelf/bleach-whitelist/blob/master/bleach_whitelist/bleach_whitelist.py>`_ for more.
 
