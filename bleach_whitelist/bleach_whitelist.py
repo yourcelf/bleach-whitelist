@@ -46,8 +46,8 @@ standard_styles = [
     "<custom-ident>", ":default", "deg", ":dir()", "direction", ":disabled",
     "display", "@document", "dpcm", "dpi", "dppx", "drop-shadow()", "element()",
     "ellipse()", "em", ":empty", "empty-cells", ":enabled", "ex", "filter",
-    ":first", ":first-child", "::first-letter (:first-letter)", "::first-line
-    (:first-line)", ":first-of-type", "flex", "flex-basis", "flex-direction",
+    ":first", ":first-child", "::first-letter", "::first-line",
+    ":first-of-type", "flex", "flex-basis", "flex-direction",
     "flex-flow", "flex-grow", "flex-shrink", "flex-wrap", "float", ":focus",
     "font", "@font-face", "font-family", "font-feature-settings",
     "@font-feature-values", "font-kerning", "font-language-override", "font-size",
