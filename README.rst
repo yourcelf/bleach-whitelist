@@ -4,10 +4,10 @@ Bleach Whitelist
 A curated list of tags, attributes, and styles suitable for filtering
 user-provided HTML using `bleach <http://bleach.readthedocs.org/en/latest/>`_.
 
-Currently, it consists of basic set of tags suitable for markup intended for
-printing, as well as a list of all CSS styles.  Please send pull requests with
-improvements or lists of tags and attributes for other purposes (wikis,
-comments, etc?).
+Currently, it consists of basic set of tags suitable for rendering markdown,
+and markup intended for printing, as well as a list of all CSS styles.  Please
+send pull requests with improvements or lists of tags and attributes for other
+purposes (wikis, comments, etc?).
 
 Installation
 ------------
@@ -26,6 +26,8 @@ Use
 
 Properties:
 
+- ``markdown_tags``: Safe HTML tags needed to render markdown-style markup.
+- ``markdown_attrs``: Safe attributes tags needed to render markdown-style markup.
 - ``print_tags``: Safe HTML tags suitable for printing / PDFs.
 - ``print_attrs``: Safe attributes suitable for printing / PDFs.
 - ``all_styles``: A list of all CSS properties supported by major browsers.

@@ -1,3 +1,17 @@
+markdown_tags = [
+    "h1", "h2", "h3", "h4", "h5", "h6",
+    "b", "i", "strong", "em", "tt",
+    "p", "br",
+    "span", "div", "blockquote", "code", "hr",
+    "ul", "ol", "li", "dd", "dt",
+    "img",
+    "a",
+]
+markdown_attrs = [
+    "img": ["src"],
+    "a": ["href"],
+]
+
 print_tags = [
     # tags whitelist
     "h1", "h2", "h3", "h4", "h5", "h6",
