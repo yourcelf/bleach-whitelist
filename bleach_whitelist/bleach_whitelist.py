@@ -7,10 +7,10 @@ markdown_tags = [
     "img",
     "a",
 ]
-markdown_attrs = [
+markdown_attrs = {
     "img": ["src"],
     "a": ["href"],
-]
+}
 
 print_tags = [
     # tags whitelist
