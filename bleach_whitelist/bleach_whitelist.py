@@ -6,7 +6,7 @@ generally_xss_unsafe = "applet audio bgsound body canvas embed frame frameset he
 # Tags that, if included on the page, will probably not break markup or open
 # XSS.  Note that these must be combined with attribute whitelisting, or things
 # like <img> and <style> could still be unsafe.
-generally_xss_safe = list(set(all_tags) - set(generally_unsafe))
+generally_xss_safe = list(set(all_tags) - set(generally_xss_unsafe))
 generally_xss_safe.sort()
 
 # Tags suitable for rendering markdown
