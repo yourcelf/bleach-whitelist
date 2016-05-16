@@ -1,1 +1,1 @@
-from bleach_whitelist import *
+from .bleach_whitelist import *
