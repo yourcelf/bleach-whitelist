@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='bleach-whitelist',
-    version='0.0.8',
+    version='0.0.9',
     packages=['bleach_whitelist'],
     include_package_data=True,
     license='BSD License',
