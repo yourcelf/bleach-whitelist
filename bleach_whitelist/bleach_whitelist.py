@@ -61,6 +61,7 @@ markdown_tags = [
 ]
 
 markdown_attrs = {
+    "*": ["id"],
     "img": ["src", "alt", "title"],
     "a": ["href", "alt", "title"],
 }
