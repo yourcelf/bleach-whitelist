@@ -58,6 +58,7 @@ markdown_tags = [
     "ul", "ol", "li", "dd", "dt",
     "img",
     "a",
+    "sub", "sup",
 ]
 
 markdown_attrs = {
