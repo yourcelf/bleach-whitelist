@@ -1,3 +1,12 @@
+import warnings
+
+warnings.warn(
+    "bleach-whitelist has been renamed bleach-allowlist. It will not receive"
+    " further updates under the old name. See"
+    " https://pypi.org/project/bleach-allowlist",
+    DeprecationWarning
+)
+
 all_tags = [
     "a", "abbr", "acronym", "address", "applet", "area", "article", "aside", "audio",
     "b", "base", "basefont", "bdi", "bdo", "bgsound", "big", "blink", "blockquote", "body", "br", "button",
